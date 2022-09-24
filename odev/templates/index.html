@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>İş Tavsiyesi</title>
+  </head>
+  <body>
+    
+    <div class="container">
+    <h1 class="text-center mt-3 mb-4">İş Tavsiyesi</h1>
+    <form method="POST" >
+      <div class="row">
+
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Eğitim Durumu</label>
+              <select class="form-control" id="edu" name="edu">
+                <option value ="1">Yüksek Lisans</option>
+                <option value="0">Lisans</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Yaratıcı mısınız?</label>
+              <select class="form-control" name="cre">
+                <option value ="1">Evet</option>
+                <option value="0">Hayır</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Analiz Yapmayı Sever misiniz?</label>
+              <select class="form-control" name="ana">
+                <option value ="1">Evet</option>
+                <option value="0">Hayır</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Sorgulayan Birisi misiniz?</label>
+              <select class="form-control" name="sor">
+                <option value ="1">Evet</option>
+                <option value="0">Hayır</option>
+              </select>
+            </div>
+          </div>          
+
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Hesap Denetimi Yapabilir misiniz?</label>
+              <select class="form-control" name="hes">
+                <option value ="1">Evet</option>
+                <option value="0">Hayır</option>
+              </select>
+            </div>
+          </div> 
+
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Liderlik vasfınız var mı?</label>
+              <select class="form-control" name="lid">
+                <option value ="1">Evet</option>
+                <option value="0">Hayır</option>
+              </select>
+            </div>
+          </div>  
+
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">İnsanları ikna edebilir misiniz?</label>
+              <select class="form-control" name="ikna">
+                <option value ="1">Evet</option>
+                <option value="0">Hayır</option>
+              </select>
+            </div>
+          </div> 
+
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Bilimsel Çalışmalara katılır mısınız?</label>
+              <select class="form-control" name="bil">
+                <option value ="1">Evet</option>
+                <option value="0">Hayır</option>
+              </select>
+            </div>
+          </div> 
+
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Yazılım biliyor musunuz?</label>
+              <select class="form-control" name="yaz">
+                <option value ="1">Evet</option>
+                <option value="0">Hayır</option>
+              </select>
+            </div>
+          </div> 
+
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Cinsiyetiniz?</label>
+              <select class="form-control" name="cin">
+                <option value ="1">Erkek</option>
+                <option value="0">Kadın</option>
+              </select>
+            </div>
+          </div> 
+
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">10 yıldan fazla iş tecrübeniz var mı?</label>
+              <select class="form-control" name="tec">
+                <option value ="1">Evet</option>
+                <option value="0">Hayır</option>
+              </select>
+            </div>
+          </div> 
+
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">İstediğiniz iş ortamı</label>
+              <select class="form-control" name="ort">
+                <option value ="1">Ofis</option>
+                <option value="0">Saha</option>
+              </select>
+            </div>
+          </div> 
+          <div class="col-12"><button type="submit" class="btn btn-primary btn-lg btn-block mt-5">Gönder!</button></div>
+    </div>
+    </form>
+    <!--
+# YL(1) or L(0)     0
+# yaratıcılık       1
+# analiz yapma      2
+# soru geliştirme   3
+# hesap denetimi    4
+# leading           5
+# ikna etme         6
+# bilimsel çalışma yapma 7
+# yazılım bilmek    8
+# cinsiyet          9
+# 10 yıldan fazla iş tecrübesi 10
+# ofis(1)-saha(0)         11
+
+    -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
